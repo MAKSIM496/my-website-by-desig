@@ -1,0 +1,22 @@
+
+.dark .card .button {
+    position: absolute;
+    bottom: -13px;
+    right: 20px;
+    padding: 9px 10px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    color: #ff0000;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 2px;
+}
+
+.dark .dropdown-content a {
+  color: rgb(42, 42, 42);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left; /* Выравниваем текст по левому краю */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Добавляем плавные переходы */
+}
